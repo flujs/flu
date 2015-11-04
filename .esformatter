@@ -1,0 +1,18 @@
+{
+    "plugins": [
+        "esformatter-braces",
+        "esformatter-var-each",
+        "esformatter-quotes",
+        "esformatter-collapse-objects",
+        "esformatter-semicolons",
+        "esformatter-jsx"
+    ],
+    "jsx": {
+      "formatJSX": true, //Duh! that's the deafault
+       "attrsOnSameLineAsTag": false, // move each attribute to its own line
+       "maxAttrsOnTag": 3, // if lower or equal than 3 attributes, they will be kept on a single line
+       "firstAttributeOnSameLine": true, // keep the first attribute in the same line as the tag
+       "alignWithFirstAttribute": false, // do not align attributes with the first tag
+       "spaceInJSXExpressionContainers": " "
+       }
+}
